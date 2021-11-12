@@ -1,8 +1,6 @@
 name: load_secrets
 
-on:
-  schedule:
-    - cron: '12/5 * * * *' # Run every minute
+on: workflow_dispatch
 
 jobs:
   test_env:
