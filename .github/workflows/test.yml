@@ -2,7 +2,7 @@ name: load_secrets
 
 on:
   schedule:
-    - cron: '* * * * *' # Run every minute
+    - cron: '12/5 * * * *' # Run every minute
 
 jobs:
   test_env:
